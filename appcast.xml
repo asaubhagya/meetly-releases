@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MeetlyDesktop</title>
+        <item>
+            <title>1.1</title>
+            <pubDate>Sat, 28 Feb 2026 00:11:05 +0800</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/asaubhagya/meetly-releases/releases/download/v1.1/MeetlyDesktop-1.1.zip" length="24670550" type="application/octet-stream" sparkle:edSignature="tAZlwrVW4b5gRgahPDwqEjhr4Mm/HfXRgjyu9eTBPa+54LLFvJkJFfxrK+/ubz8iNk/WHK9bBzo5YV39/cxdBg=="/>
+        </item>
+    </channel>
+</rss>
