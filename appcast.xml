@@ -3,12 +3,12 @@
     <channel>
         <title>MeetlyDesktop</title>
         <item>
-            <title>1.2</title>
-            <pubDate>Sun, 01 Mar 2026 16:54:55 +0800</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <title>1.3</title>
+            <pubDate>Mon, 02 Mar 2026 00:19:47 +0800</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/asaubhagya/meetly-releases/releases/download/v1.2/MeetlyDesktop-1.2.zip" length="24795231" type="application/octet-stream" sparkle:edSignature="ERBTqqA1rscIrftNkpusR/+eJj7FhjU+45S+Pt+QCr9gNKbV7h1HBOmu/QjEORQWb6drrNWdH5BQcQHcUHrLAA=="/>
+            <enclosure url="https://github.com/asaubhagya/meetly-releases/releases/download/v1.3/MeetlyDesktop-1.3.zip" length="24807045" type="application/octet-stream" sparkle:edSignature="I6rko5FlGwSib26m/70DLTDH++y1WMgHCfcuByx2yXNoDJxwgtd3qWJJKIIl1LIxTZtmWVAJKaiN7GW2Xl0+AQ=="/>
         </item>
     </channel>
 </rss>
