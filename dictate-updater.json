@@ -1,14 +1,14 @@
 {
   "version": "1.14.0",
-  "notes": "- Fix: improve window launch reliability on Windows (error handling, synchronous window creation, single-instance protection)\n- Update documentation for v1.14",
-  "pub_date": "2026-03-15T05:04:21Z",
+  "notes": "Fix: crash on Windows startup, improved window launch reliability",
+  "pub_date": "2026-03-15T05:41:07Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUldUSTQwMUlUUm1ZU2RJUWQreThEN0NSRlJrazk3VlZnbmlodG0yallhZkx6UFVUb3pEZjI1dW9yMnZ2RnJBK1EzY0dHSGozT2wxb2FzWkFPc2tobkVuZWhLdHVRNkViaXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNTUwNzkyCWZpbGU6TWVldGx5IERpY3RhdGVfMS4xNC4wX3g2NC1zZXR1cC5leGUKbzBLTEtCUUd2cEJmdDlsci8wcWlPSjEycC80REk4d2hIZytoNnBrUWw0YmpJdjArQ0tqVXZHV1hERmRQTXZKeTJqOTVmYnNuSjNGTHNHV05lcTJFQmc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSTQwMUlUUm1ZU1ZuQ3NYNEQyM2hCZmlOcDJSMFlmNzlOckhiL2wvNG4wV2xUeUJ6dnUrN0FYNnVyYk52eFA2UlFBc0hJc05SWkJsRVEyNXpoVlUxQmZSK2htYlc5bXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNTUyNTc3CWZpbGU6TWVldGx5IERpY3RhdGVfMS4xNC4wX3g2NC1zZXR1cC5leGUKVmU5REZYRVE5NUp5MERPQ0I4dkZwcnVIblRtOG5kTkJHUlNVMU1VUkNXZFBCSEgwM0d6aUdpcEdrS0k3N3JiTEtTNDUvek5oM0loK1hzQzUzcFFvQXc9PQo=",
       "url": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/Meetly.Dictate_1.14.0_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUldUSTQwMUlUUm1ZU1dDYnR1dkVzb2dnQ3dpc3duSFNsWlAxNXR0TkFVVDhzUWF1ODRGY0hjUEFDb1BNSHgxeVBHaVNHQk9xT2c0ZVJrSU8yV2EweUcvMnh3MVV0RW1WSGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNTUwODMwCWZpbGU6TWVldGx5IERpY3RhdGVfMS4xNC4wX2FtZDY0LkFwcEltYWdlCnFNUWZQV09WTm44RzBKMVR2V201czZrMDhiOXhTZ3ZZRjdSbUU4bjVMRUV3aXVVbUw0NXRNUXJDSk1ibFhnZDFZWG1Sc0ZrWXlCVHNqa0FMenJzd0JBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSTQwMUlUUm1ZU1pVbUhLcmEvREM3SWVOTlI5NFNqZ2xIMy9sYXBpNnpSMVQzdjRZdUJFb2YzNnJkZm4zSURwQk1GYlM2S3BteUJOemRQcTVOSm5zcHczRlFsZVRabkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNTUyNTExCWZpbGU6TWVldGx5IERpY3RhdGVfMS4xNC4wX2FtZDY0LkFwcEltYWdlCjRVdmxZbHo2Wnljd0w1TnM3dElyRWpnZ1UxWVJwenpJaGZqcXpaTjRNZEdOSUljZElPQ2srRkphdlVUU0kxWUYrSkNCUnFCeVBzeDJwY0VEQlJiVkJRPT0K",
       "url": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/Meetly.Dictate_1.14.0_amd64.AppImage"
     }
   }
