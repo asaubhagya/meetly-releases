@@ -1,14 +1,14 @@
 {
   "latest": {
     "version": "1.14",
-    "build": 28,
+    "build": 29,
     "date": "2026-03-15",
     "tag": "dictate-v1.14",
     "notes": "CUDA GPU acceleration for faster transcription on NVIDIA GPUs",
     "assets": {
       "mac_dmg": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/MeetlyDictate-1.14.dmg",
       "mac_zip": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/MeetlyDictate-1.14.zip",
-      "windows_exe": null
+      "windows_exe": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/Meetly.Dictate_1.14.0_x64-setup.exe"
     }
   },
   "previous": {
