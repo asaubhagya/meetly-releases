@@ -1,0 +1,15 @@
+{
+  "version": "1.14.0",
+  "notes": "Whisper-only engine with multi-language support (30 languages + auto-detect).",
+  "pub_date": "2026-03-15T02:00:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSTQwMUlUUm1ZU2NvYzhjaFJPSk9WUFdvS2drdnhHRS8wRXJlTmlQMExSSjJFaHBBajJhYlU2K2tUcHVmOG5hY091b0pXTE1COUtybkd6dzJ4MVcxMi9uSUZsL0RrOFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNTQzMzE5CWZpbGU6TWVldGx5IERpY3RhdGVfMS4xNC4wX3g2NC1zZXR1cC5leGUKOXdxSzdZQW1ZT3lMeUNZYUJrTUdWZkVRRjVFYkZha3R5enZwazlwUzhSaHptb1dxSzJ4TlRrYm9aTWh1VEg3YnRNUGcyQk5DazFZc1YyZzNWY3R3Q2c9PQo=",
+      "url": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/Meetly.Dictate_1.14.0_x64-setup.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUldUSTQwMUlUUm1ZU1Vpd3FueWNPdjRWeUxtaWg2TmU3Ukc2R29kRXpBVUtyRHdpNmRBbGk4YWVJb1hTWmZnU0g5NzFOL2RWdVVwb1lWK0ZleFRyVTRFRDNTcFJTVzNwSFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNTQyOTUzCWZpbGU6TWVldGx5IERpY3RhdGVfMS4xNC4wX2FtZDY0LkFwcEltYWdlCldFUDdMcDMyVG0zM21tSDluK3A5RVZnVlZlekY1NEFoandRdFk5eHpJd0o5bGhUaks4bFpsK0xuWTJkVGY4d28vN2hwVWphSmNJYWdUVVlMRWgyVkJBPT0K",
+      "url": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/Meetly.Dictate_1.14.0_amd64.AppImage"
+    }
+  }
+}
