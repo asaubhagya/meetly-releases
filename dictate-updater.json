@@ -1,15 +1,11 @@
 {
   "version": "1.14.0",
-  "notes": "Fix: crash on Windows startup, improved window launch reliability",
-  "pub_date": "2026-03-15T05:41:07Z",
+  "notes": "CUDA GPU acceleration for faster transcription on NVIDIA GPUs",
+  "pub_date": "2026-03-15T08:15:52Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSTQwMUlUUm1ZU1ZuQ3NYNEQyM2hCZmlOcDJSMFlmNzlOckhiL2wvNG4wV2xUeUJ6dnUrN0FYNnVyYk52eFA2UlFBc0hJc05SWkJsRVEyNXpoVlUxQmZSK2htYlc5bXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNTUyNTc3CWZpbGU6TWVldGx5IERpY3RhdGVfMS4xNC4wX3g2NC1zZXR1cC5leGUKVmU5REZYRVE5NUp5MERPQ0I4dkZwcnVIblRtOG5kTkJHUlNVMU1VUkNXZFBCSEgwM0d6aUdpcEdrS0k3N3JiTEtTNDUvek5oM0loK1hzQzUzcFFvQXc9PQo=",
-      "url": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/Meetly.Dictate_1.14.0_x64-setup.exe"
-    },
-    "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSTQwMUlUUm1ZU1pVbUhLcmEvREM3SWVOTlI5NFNqZ2xIMy9sYXBpNnpSMVQzdjRZdUJFb2YzNnJkZm4zSURwQk1GYlM2S3BteUJOemRQcTVOSm5zcHczRlFsZVRabkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNTUyNTExCWZpbGU6TWVldGx5IERpY3RhdGVfMS4xNC4wX2FtZDY0LkFwcEltYWdlCjRVdmxZbHo2Wnljd0w1TnM3dElyRWpnZ1UxWVJwenpJaGZqcXpaTjRNZEdOSUljZElPQ2srRkphdlVUU0kxWUYrSkNCUnFCeVBzeDJwY0VEQlJiVkJRPT0K",
-      "url": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/Meetly.Dictate_1.14.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSTQwMUlUUm1ZU1VMK1VtNWxJRW4ydnJaN3gyNklDanFEZDFIV3pjUEFucCtiOFE3d0NZUlF1UU1CL1FKZGQ2YVM2amxZQnp6b05IcHNkcFRHWEdRbUQ5Um15WkRvaFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczNTYyMzc0CWZpbGU6TWVldGx5IERpY3RhdGVfMS4xNC4wX3g2NC1zZXR1cC5leGUKVVVDQ2dNUjhBNTJuSnR5R0NsK3pSeFpmc1VCMy9seCtNdHNZaml1MC8wK05TMWU5WFJ2YWprMzF1UzF6WHE5WVFFN09CRDZBdVVuMDB3TGczSnpvQnc9PQo=",
+      "url": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/Meetly Dictate_1.14.0_x64-setup.exe"
     }
   }
 }
