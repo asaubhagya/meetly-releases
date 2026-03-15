@@ -4,11 +4,11 @@
         <title>MeetlyDictate</title>
         <item>
             <title>1.14</title>
-            <pubDate>Sun, 15 Mar 2026 10:05:27 +0800</pubDate>
-            <sparkle:version>21</sparkle:version>
+            <pubDate>Sun, 15 Mar 2026 11:50:22 +0800</pubDate>
+            <sparkle:version>22</sparkle:version>
             <sparkle:shortVersionString>1.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/MeetlyDictate-1.14.zip" length="7181359" type="application/octet-stream" sparkle:edSignature="CJhj2eezvbqyWgozPwqmGHALs7CODAlxxdz9FHiT3pEeMDmeUNlifV/LamGUKu97krkzoW9CVJngpL/rZuQ4CA=="/>
+            <enclosure url="https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/MeetlyDictate-1.14.zip" length="7185362" type="application/octet-stream" sparkle:edSignature="DfHJQMFgd4jST6lGNrKh28Gz1+Lv/1hTiksiz6IfdXWoovt+0s7dOD1Iqp62+wSQWs0C6doBkaf0g2j1+sR7Bw=="/>
         </item>
     </channel>
 </rss>
