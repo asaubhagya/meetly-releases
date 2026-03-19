@@ -1,5 +1,17 @@
 {
   "latest": {
+    "version": "1.15",
+    "build": 39,
+    "date": "2026-03-20",
+    "tag": "dictate-v1.15",
+    "notes": "Voice memory UI, Intel Mac compatibility, and bug fixes",
+    "assets": {
+      "mac_dmg": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.15/MeetlyDictate-1.15.dmg",
+      "mac_zip": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.15/MeetlyDictate-1.15.zip",
+      "windows_exe": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.15/Meetly.Dictate_1.14.0_x64-setup.exe"
+    }
+  },
+  "previous": {
     "version": "1.14",
     "build": 30,
     "date": "2026-03-15",
@@ -9,18 +21,6 @@
       "mac_dmg": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/MeetlyDictate-1.14.dmg",
       "mac_zip": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/MeetlyDictate-1.14.zip",
       "windows_exe": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.14/Meetly.Dictate_1.14.0_x64-setup.exe"
-    }
-  },
-  "previous": {
-    "version": "1.13",
-    "build": 26,
-    "date": "2026-03-14",
-    "tag": "dictate-v1.13",
-    "notes": "Bug fixes and improvements",
-    "assets": {
-      "mac_dmg": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.13/MeetlyDictate-1.13.dmg",
-      "mac_zip": "https://github.com/asaubhagya/meetly-releases/releases/download/dictate-v1.13/MeetlyDictate-1.13.zip",
-      "windows_exe": null
     }
   }
 }
