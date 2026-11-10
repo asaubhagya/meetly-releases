@@ -28,6 +28,19 @@
         "D1.4.3"
       ],
       "notes": "Experimental partition-map diagnostic only (MEE-1079/MEE-1084). Adds authenticated GET&MAP readback; BLE&FW reports D1.4.3. Button gestures, markers and persistent settings are not implemented. Container checks and vendor recovery decoder pass offline; key-check and BLE&OTA parser routes are unchanged in emulation. Physical boot, BLE delivery and rollback to V1.4.2 are untested. Rollback requires this build to boot and accept OTA. Source/review: https://github.com/asaubhagya/meetly/pull/305 (unmerged)."
+    },
+    {
+      "version": "D1.4.4",
+      "channel": "experimental",
+      "file": "MR20_D1.4.4_map_diagnostic.bin",
+      "sha256": "f26900d10e622aac5ee6b8f0b11282b8759a986acbd88d1c09fe284bce1a2ad6",
+      "bytes": 865280,
+      "frameBytes": 244,
+      "numbered": true,
+      "reportedAs": [
+        "D1.4.4"
+      ],
+      "notes": "Experimental map-rejection diagnostic (MEE-1079/MEE-1086). Retains all existing memory/header/CRC checks; adds bounded Q/P/B/H/R rejection details for the acquisition app. D1.4.3 boots and replies on the test Clip but rejected its map. D1.4.4 passes offline ARM, container and vendor-decoder checks; physical install/readback/rollback remain untested. Gestures, markers and saved button settings are not implemented. Rollback to stable V1.4.2 requires working boot and OTA. Source/review: https://github.com/asaubhagya/meetly/commit/b4c513d9 (PR #305, unmerged)."
     }
   ]
 }
