@@ -41,6 +41,19 @@
         "D1.4.4"
       ],
       "notes": "Experimental map-rejection diagnostic (MEE-1079/MEE-1086). Retains all existing memory/header/CRC checks; adds bounded Q/P/B/H/R rejection details for the acquisition app. D1.4.3 boots and replies on the test Clip but rejected its map. D1.4.4 passes offline ARM, container and vendor-decoder checks; physical install/readback/rollback remain untested. Gestures, markers and saved button settings are not implemented. Rollback to stable V1.4.2 requires working boot and OTA. Source/review: https://github.com/asaubhagya/meetly/commit/b4c513d9 (PR #305, unmerged)."
+    },
+    {
+      "version": "D1.4.5",
+      "channel": "experimental",
+      "file": "MR20_D1.4.5_map_diagnostic.bin",
+      "sha256": "5259f99fbda73aaca5f41a623f42555c4be32992b3ad97009e3797858d3c45fd",
+      "bytes": 865280,
+      "frameBytes": 244,
+      "numbered": true,
+      "reportedAs": [
+        "D1.4.5"
+      ],
+      "notes": "Experimental diagnostic test candidate (MEE-1079/MEE-1087). Allows only the exact partition-table address reported by the physical D1.4.4 Clip, retaining header, CRC, authentication and OTA checks. Offline ARM and recovery-decoder checks pass. D1.4.5 physical install, readback and rollback are not yet verified. Button gestures, markers and persistent settings remain unimplemented. Source work: PR #305; final source commit and release acceptance follow physical testing."
     }
   ]
 }
