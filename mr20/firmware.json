@@ -53,7 +53,7 @@
       "reportedAs": [
         "D1.4.5"
       ],
-      "notes": "Experimental diagnostic test candidate (MEE-1079/MEE-1087). Allows only the exact partition-table address reported by the physical D1.4.4 Clip, retaining header, CRC, authentication and OTA checks. Offline ARM and recovery-decoder checks pass. D1.4.5 physical install, readback and rollback are not yet verified. Button gestures, markers and persistent settings remain unimplemented. Source work: PR #305; final source commit and release acceptance follow physical testing."
+      "notes": "Experimental partition diagnostic (MEE-1079/MEE-1087). Physical OTA boot and authenticated 744-byte table read passed on the test Clip; header and CRC independently verified. Rollback to V1.4.2 sent all frames but the Clip has not reconnected and the phone app exited; recovery is unresolved. Do not treat rollback as verified. Button gestures, markers and persistent settings are not implemented. Source: https://github.com/asaubhagya/meetly/commit/9e1b9b872a26f0f4bffee481973cf926d528e38e (PR #307 unmerged)."
     }
   ]
 }
