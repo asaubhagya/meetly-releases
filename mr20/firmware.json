@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "model": "MR20",
+  "builds": [
+    {
+      "version": "V1.4.2",
+      "channel": "stable",
+      "file": "MR20_V1.4.2.bin",
+      "sha256": "801330e30578e343ca9eb873975323a0e89bd3a0040d2e8abb6d7d9f0866dd87",
+      "bytes": 867328,
+      "frameBytes": 244,
+      "numbered": true,
+      "reportedAs": ["V1.4.2", "1.00_2611091817"],
+      "notes": "Supplier release (L, 9 Nov). Light control and clock. The rollback target."
+    }
+  ]
+}
