@@ -67,6 +67,19 @@
         "D1.4.6"
       ],
       "notes": "Loader-limit diagnostic only (MEE-1079/MEE-1087). Adds authenticated fixed GET&LIM read; retains GET&MAP and existing key/OTA routes. Offline ARM, container and supplier recovery checks pass. Physical D1.4.6 installation and rollback remain unverified. Button features and persistent settings are not included. Source: https://github.com/asaubhagya/meetly/commit/dbc1c62d (unmerged)."
+    },
+    {
+      "version": "M1.4.7",
+      "channel": "experimental",
+      "file": "MR20_M1.4.7_experimental.bin",
+      "sha256": "f4d8d82d99b391fa25b249722c8406957a6ccd34ec42680a7f9e9c6c8e3e5db1",
+      "bytes": 869376,
+      "frameBytes": 244,
+      "numbered": true,
+      "reportedAs": [
+        "M1.4.7"
+      ],
+      "notes": "Experimental button controls: single-press markers, double-press segments, saved light/vibration settings. Includes checked recording close and shutdown/USB/OTA guards. Offline checks pass; physical boot, buttons, persistence, audio import and rollback are not yet verified. Triple-press mute is not implemented. MEE-1079/MEE-1085/MEE-1087. Source: https://github.com/asaubhagya/meetly/commit/f17b48bf (unmerged); requires feature-capable app."
     }
   ]
 }
