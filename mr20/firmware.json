@@ -67,6 +67,20 @@
         "D1.4.6"
       ],
       "notes": "Loader-limit diagnostic only (MEE-1079/MEE-1087). Adds authenticated fixed GET&LIM read; retains GET&MAP and existing key/OTA routes. Offline ARM, container and supplier recovery checks pass. Physical D1.4.6 installation and rollback remain unverified. Button features and persistent settings are not included. Source: https://github.com/asaubhagya/meetly/commit/dbc1c62d (unmerged)."
+    },
+    {
+      "version": "M1.4.8",
+      "channel": "experimental",
+      "file": "MR20_M1.4.8_safe.bin",
+      "sha256": "9fa82e092527b9442c12b06c4bcbcb05ab782d88e29ee4e9d4a2d94199f5e90c",
+      "bytes": 866304,
+      "frameBytes": 244,
+      "numbered": true,
+      "reportedAs": [
+        "M1.4.8",
+        "M1.4.8_safe"
+      ],
+      "notes": "Experimental reliability build (MEE-1094). M1.4.7 stopped answering Bluetooth on battery. This build removes its recording, button, power and file-name changes (those parts are the supplier's V1.4.2 code) and keeps the saved settings and light control. Button markers, file splitting and buzz are not included. Emulator, container and supplier-decoder checks pass; it has not run on a Clip. If it doesn't start, the Clip can't be recovered from the phone. Install with the Clip on USB power. Source: https://github.com/asaubhagya/meetly/commit/9d76b07b (PR #310, unmerged)."
     }
   ]
 }
