@@ -3,6 +3,20 @@
   "model": "MR20",
   "builds": [
     {
+      "version": "V1.4.3",
+      "channel": "stable",
+      "file": "MR20_V1.4.3.bin",
+      "sha256": "c00b4d917117d7d788adab228daaddf86f783a6c14f3ae066aed120cc57217d3",
+      "bytes": 867840,
+      "frameBytes": 244,
+      "numbered": true,
+      "reportedAs": [
+        "V1.4.3",
+        "1.00_2611121024"
+      ],
+      "notes": "Supplier release (L, 12 Nov). Current stable build."
+    },
+    {
       "version": "V1.4.2",
       "channel": "stable",
       "file": "MR20_V1.4.2.bin",
@@ -14,73 +28,7 @@
         "V1.4.2",
         "1.00_2611091817"
       ],
-      "notes": "Supplier release (L, 9 Nov). Light control and clock. The rollback target."
-    },
-    {
-      "version": "D1.4.3",
-      "channel": "experimental",
-      "file": "MR20_D1.4.3_map_diagnostic.bin",
-      "sha256": "cccf7cb1d707965bb25de22d74231ae8bba6c345da198a6c2b3b101fe66851df",
-      "bytes": 865280,
-      "frameBytes": 244,
-      "numbered": true,
-      "reportedAs": [
-        "D1.4.3"
-      ],
-      "notes": "Experimental partition-map diagnostic only (MEE-1079/MEE-1084). Adds authenticated GET&MAP readback; BLE&FW reports D1.4.3. Button gestures, markers and persistent settings are not implemented. Container checks and vendor recovery decoder pass offline; key-check and BLE&OTA parser routes are unchanged in emulation. Physical boot, BLE delivery and rollback to V1.4.2 are untested. Rollback requires this build to boot and accept OTA. Source/review: https://github.com/asaubhagya/meetly/pull/305 (unmerged)."
-    },
-    {
-      "version": "D1.4.4",
-      "channel": "experimental",
-      "file": "MR20_D1.4.4_map_diagnostic.bin",
-      "sha256": "f26900d10e622aac5ee6b8f0b11282b8759a986acbd88d1c09fe284bce1a2ad6",
-      "bytes": 865280,
-      "frameBytes": 244,
-      "numbered": true,
-      "reportedAs": [
-        "D1.4.4"
-      ],
-      "notes": "Experimental map-rejection diagnostic (MEE-1079/MEE-1086). Retains all existing memory/header/CRC checks; adds bounded Q/P/B/H/R rejection details for the acquisition app. D1.4.3 boots and replies on the test Clip but rejected its map. D1.4.4 passes offline ARM, container and vendor-decoder checks; physical install/readback/rollback remain untested. Gestures, markers and saved button settings are not implemented. Rollback to stable V1.4.2 requires working boot and OTA. Source/review: https://github.com/asaubhagya/meetly/commit/b4c513d9 (PR #305, unmerged)."
-    },
-    {
-      "version": "D1.4.5",
-      "channel": "experimental",
-      "file": "MR20_D1.4.5_map_diagnostic.bin",
-      "sha256": "5259f99fbda73aaca5f41a623f42555c4be32992b3ad97009e3797858d3c45fd",
-      "bytes": 865280,
-      "frameBytes": 244,
-      "numbered": true,
-      "reportedAs": [
-        "D1.4.5"
-      ],
-      "notes": "Experimental partition diagnostic (MEE-1079/MEE-1087). Physical OTA boot and authenticated 744-byte table read passed on the test Clip; header and CRC independently verified. Rollback to V1.4.2 sent all frames but the Clip has not reconnected and the phone app exited; recovery is unresolved. Do not treat rollback as verified. Button gestures, markers and persistent settings are not implemented. Source: https://github.com/asaubhagya/meetly/commit/9e1b9b872a26f0f4bffee481973cf926d528e38e (PR #307 unmerged)."
-    },
-    {
-      "version": "D1.4.6",
-      "channel": "experimental",
-      "file": "MR20_D1.4.6_map_diagnostic.bin",
-      "sha256": "988403568106f5644d23fe01f1fdd26661de60cdf021d1c2b11dab29133e6cb1",
-      "bytes": 865280,
-      "frameBytes": 244,
-      "numbered": true,
-      "reportedAs": [
-        "D1.4.6"
-      ],
-      "notes": "Loader-limit diagnostic only (MEE-1079/MEE-1087). Adds authenticated fixed GET&LIM read; retains GET&MAP and existing key/OTA routes. Offline ARM, container and supplier recovery checks pass. Physical D1.4.6 installation and rollback remain unverified. Button features and persistent settings are not included. Source: https://github.com/asaubhagya/meetly/commit/dbc1c62d (unmerged)."
-    },
-    {
-      "version": "M1.4.8",
-      "channel": "experimental",
-      "file": "MR20_M1.4.8_safe.bin",
-      "sha256": "9fa82e092527b9442c12b06c4bcbcb05ab782d88e29ee4e9d4a2d94199f5e90c",
-      "bytes": 866304,
-      "frameBytes": 244,
-      "numbered": true,
-      "reportedAs": [
-        "M1.4.8",
-        "M1.4.8_safe"
-      ],
-      "notes": "Experimental reliability build (MEE-1094). M1.4.7 stopped answering Bluetooth on battery. This build removes its recording, button, power and file-name changes (those parts are the supplier's V1.4.2 code) and keeps the saved settings and light control. Button markers, file splitting and buzz are not included. Emulator, container and supplier-decoder checks pass; it has not run on a Clip. If it doesn't start, the Clip can't be recovered from the phone. Install with the Clip on USB power. Source: https://github.com/asaubhagya/meetly/commit/9d76b07b (PR #310, unmerged)."
+      "notes": "Supplier release (L, 9 Nov). Light control and clock. Rollback target."
     }
   ]
 }
