@@ -19,16 +19,16 @@
     {
       "version": "V1.4.3",
       "channel": "stable",
-      "file": "MR20_V1.4.3.bin",
-      "sha256": "c00b4d917117d7d788adab228daaddf86f783a6c14f3ae066aed120cc57217d3",
-      "bytes": 867840,
+      "file": "MR20_V1.4.3_r.bin",
+      "sha256": "cb8acad588d7e877ed3364fc45b0ea93e98784f48e40fdd22f3af03b5d5c7704",
+      "bytes": 865280,
       "frameBytes": 244,
       "numbered": true,
       "reportedAs": [
         "V1.4.3",
         "1.00_2611121024"
       ],
-      "notes": "Supplier release (L, 12 Nov). Current stable build."
+      "notes": "Supplier release (L, 12 Nov), current stable. Version code raised to 0x10004 (firmware unchanged) so a Clip on M1.4.9 accepts it as a rollback."
     },
     {
       "version": "V1.4.2",
