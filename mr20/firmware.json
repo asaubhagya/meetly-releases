@@ -3,6 +3,20 @@
   "model": "MR20",
   "builds": [
     {
+      "version": "M1.4.9",
+      "channel": "experimental",
+      "file": "MR20_M1.4.9.bin",
+      "sha256": "c00701782091a323690af43cebeedc1563b35985cad5340b611b76aaa27f5a02",
+      "bytes": 866816,
+      "frameBytes": 244,
+      "numbered": true,
+      "reportedAs": [
+        "M1.4.9",
+        "M1.4.9_press"
+      ],
+      "notes": "Experimental (Meetly, 14 Nov). Single press saves a highlight, double press a recording mark, each with a buzz; light, buzz and press settings are kept on the Clip. Never run on a Clip before."
+    },
+    {
       "version": "V1.4.3",
       "channel": "stable",
       "file": "MR20_V1.4.3.bin",
